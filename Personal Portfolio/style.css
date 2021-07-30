@@ -1,0 +1,161 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: orchid;
+    /* width: 100vw; */
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#welcome-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: palegreen;
+    margin-bottom: 0px;
+}
+
+.welcome-section h1{
+    font-size: 50px;
+    color: blueviolet;
+    margin: -20px;
+}
+
+.welcome-section p{
+    font-size: 30px;
+    font-style: italic;
+    color: brown;
+}
+
+#projects{
+    /* background-color: burlywood; */
+}
+
+.projects-section{
+    text-align: center;
+    padding: 10rem 2rem;
+    background: yellow;
+}
+
+.projects-section-header{
+    font-size: 40px;
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    padding: 5px;
+    border-bottom: 0.3rem solid white;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project {
+    background: gray;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.project-title {
+    font-size: 1rem;
+    padding: 2rem 0.5rem;
+}
+
+.code {
+    color: red;
+    transition: color 0.3s ease-out;
+}
+
+.btn-show-all {
+    font-size: 2rem;
+    background: gray;
+    transition: background 0.3s ease-out;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: gray;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+footer{
+    background: gray;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    border-top: 4px solid orchid;
+}
+
+@media screen and (max-width: 440px) {
+    .nav-list{
+        width: 100%;
+    }
+}

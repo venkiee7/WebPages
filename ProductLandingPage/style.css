@@ -1,0 +1,146 @@
+nav{
+    position: fixed;
+    top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	background: lightblue;
+	border-bottom: 2px solid #ccc;
+	padding: 25px 5%;
+	color: white;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around
+}
+
+
+#header{
+    display: flex;
+}
+
+
+#header-img{
+    width: 400px;
+    height: 50px;
+    margin: 20px 400px 40px 0px;
+}
+
+#nav-bar ul{
+    display: flex;
+}
+
+#nav-bar li{
+    margin: 20px 50px;
+    list-style-type: none;
+}
+
+#blenky{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* height: 100px; */
+    margin-top: 30px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+#email{
+    max-width: 200px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: center; */
+    height: 500px;
+}
+
+.grid{
+    display: flex;
+    margin: 10px 20px 10px 30px;
+    /* align-self: center; */
+    /* flex-direction: column; */
+}
+
+.icon{
+    display: flex   ;
+    width: 300px;
+    height: 130px;
+}
+
+#how-it-works{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+#video{
+    max-width: 500px;
+    width: 100%;
+}
+
+#pricing{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.btn{
+    background-color: yellow;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    /* text-decoration: none; */
+}
+
+footer li{
+    padding: 15px;
+    list-style: none;
+}
+
+span{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 480px) {
+	body {
+		background: blue;
+	}
+}
